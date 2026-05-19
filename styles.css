@@ -52,6 +52,8 @@ ul{list-style:none}
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
   background-clip:text;
+  display:inline-block;
+  padding-bottom:0.12em;
 }
 
 /* SCROLL REVEAL */
@@ -155,6 +157,7 @@ ul{list-style:none}
   position:relative;min-height:100vh;display:flex;align-items:center;
   background:var(--bg);overflow:hidden;padding-top:var(--nav-h);
 }
+.hero-inner{overflow:visible}
 .hero-orb{
   position:absolute;border-radius:50%;pointer-events:none;filter:blur(80px);
 }
